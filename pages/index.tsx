@@ -1,5 +1,4 @@
 import {
-  ConnectWallet,
   toEther,
   toWei,
   useAddress,
@@ -11,11 +10,9 @@ import {
   useTokenBalance,
 } from "@thirdweb-dev/react";
 import styles from "../styles/Home.module.css";
-import Image from "next/image";
 import { NextPage } from "next";
 import { useEffect, useState } from "react";
 import SwapInput from "../components/SwapInput";
-import SwapInput2 from "../components/SwapInput2";
 
 const TOKEN_CONTRACT = "0xa517c6aBB1451a2d5A1f4Faa64e42E9356B2990b";
 const DEX_CONTRACT = "0x789661C977BdfE262bA04bf75A25f8ba6c8415F1";
